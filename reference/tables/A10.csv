@@ -1,0 +1,5 @@
+Specification,CESD coefficient (pp),N
+CESD(t) and new report at t+1,0.472*** (0.110),"119,576"
+Adds benchmark terms and current income,0.470*** (0.111),"119,576"
+Adds lagged CESD,0.473*** (0.115),"117,573"
+No ideation report in either prior year,0.381*** (0.085),"102,138"

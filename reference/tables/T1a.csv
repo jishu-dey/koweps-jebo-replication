@@ -1,0 +1,17 @@
+Variable,Mean,SD,P25,Median,P75
+CESD-11 score (0-60),6.654,8.587,0.000,3.636,9.091
+CESD-11 z-score,-0.005,0.996,-0.776,-0.355,0.278
+Self-esteem score,3.060,0.410,2.800,3.100,3.300
+Self-esteem z-score,-0.004,1.001,-0.640,0.093,0.582
+Log real disposable income,8.144,0.831,7.537,8.259,8.772
+Recent-income benchmark,8.121,0.785,7.540,8.236,8.713
+"Signed benchmark gap, winsorised",0.025,0.348,-0.143,0.040,0.216
+Benchmark shortfall,0.115,0.217,0.000,0.000,0.143
+Benchmark gain,0.140,0.204,0.000,0.040,0.216
+"Annual change in log real income, winsorised",0.012,0.354,-0.152,0.021,0.191
+Annual decline,0.120,0.221,0.000,0.000,0.152
+Annual rise,0.132,0.210,0.000,0.021,0.191
+Log real consumption,5.614,0.783,5.042,5.713,6.207
+Food-hardship index,0.015,0.079,0.000,0.000,0.000
+Age,56.207,18.609,41.000,57.000,72.000
+Household size,2.710,1.283,2.000,2.000,4.000

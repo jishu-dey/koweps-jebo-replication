@@ -1,0 +1,3 @@
+# Corrected tables for the Aug 22 paper
+
+31 October 2026. Requested by the user: apply the audit in `../paper_corrections_2026_10_31/CORRECTIONS.md`. Post-result rebuild, exploratory. Income: positive real logs with exact calendar histories (`../original_analysis_correction_2026_10_29`), N = 148,887 for CES-D. All FE models cluster by connected household group and income year, with t and F tests on the model's own df. No outcome before economic year 2011 is used. Every fitted table goes to `tables/`. No table is dropped because of its result; drops follow `../table_retention_audit_2026_10_29/AUDIT.md`.

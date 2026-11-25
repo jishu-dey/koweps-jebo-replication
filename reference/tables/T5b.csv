@@ -1,0 +1,7 @@
+Group,Shortfall,Gain,Symmetry p-value,N
+Lowest tercile of lagged liquid assets,0.228*** (0.030),-0.070** (0.029),0.006,"46,895"
+Middle tercile,0.146*** (0.033),-0.015 (0.026),0.027,"46,209"
+Highest tercile,0.047** (0.020),-0.037 (0.023),0.792,"47,311"
+Lagged assets cover under 1 month of income,0.209*** (0.058),-0.121** (0.049),0.378,"21,324"
+Cover 1-6 months,0.166*** (0.034),-0.052* (0.029),0.046,"48,321"
+Cover 6 months or more,0.081*** (0.020),-0.023 (0.024),0.140,"69,889"

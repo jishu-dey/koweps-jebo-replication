@@ -1,0 +1,5 @@
+Specification,Shortfall,Shortfall x low assets,Gain,Gain x low assets,Implied low-asset shortfall,BH q (shortfall interaction),"Symmetry p, higher assets","Symmetry p, low assets",Asymmetry difference p,BH q (asymmetry difference),N
+Baseline assets,0.087*** (0.020),0.103*** (0.025),-0.050** (0.022),0.000 (0.025),0.189,0.006,0.251,0.003,0.020,0.081,"137,104"
+Lagged assets,0.091*** (0.014),0.093*** (0.025),-0.042* (0.021),-0.004 (0.032),0.185,0.006,0.079,0.007,0.091,0.121,"148,887"
+"Baseline assets, income controls",-0.019 (0.030),0.067 (0.049),-0.023 (0.026),0.017 (0.032),0.049,0.195,0.212,0.397,0.079,0.121,"137,104"
+"Lagged assets, income controls",-0.015 (0.028),0.064* (0.031),0.006 (0.028),-0.026 (0.046),0.048,0.084,0.821,0.567,0.521,0.521,"148,887"

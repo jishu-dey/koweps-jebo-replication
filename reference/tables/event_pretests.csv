@@ -1,0 +1,13 @@
+outcome,test,p
+cesd_z,"Displayed leads k=-4,-3",0.991008853781318
+cesd_z,Displayed leads k=-6 to -3,0.305602316754266
+cesd_z,"All clean cells, household covariance",0.539309066565487
+cesd_z,"All clean cells, person covariance",0.159365829354576
+cesd_z,"All clean cells, varying base, person covariance",0.069404086365387
+cesd_z,Package test including transition year,0.03235
+esteem_z,"Displayed leads k=-4,-3",0.710697021205086
+esteem_z,Displayed leads k=-6 to -3,0.738462930078952
+esteem_z,"All clean cells, household covariance",0.0752449479963668
+esteem_z,"All clean cells, person covariance",0.00100274272118315
+esteem_z,"All clean cells, varying base, person covariance",0.000186418437917936
+esteem_z,Package test including transition year,3e-04

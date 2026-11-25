@@ -1,0 +1,10 @@
+Specification,Shortfall / negative shock,Gain / positive shock,Symmetry p-value,N
+Benchmark terms only,0.135*** (0.018),-0.046** (0.015),0.005,"148,887"
+Annual-change controls,0.098*** (0.023),-0.072*** (0.021),0.459,"148,887"
+Annual changes and current income,0.018 (0.025),-0.009 (0.021),0.803,"148,887"
+Annual changes and individual trends,0.066** (0.024),-0.082*** (0.024),0.692,"148,887"
+AR(3) residual shocks only,0.148*** (0.016),-0.024 (0.016),<0.001,"132,980"
+Horse race: benchmark terms,-0.005 (0.040),-0.094** (0.033),0.050,"132,980"
+Horse race: AR(3) residual shocks,0.147*** (0.043),0.070** (0.031),<0.001,"132,980"
+Correlation of shortfall with negative AR(3) shock,0.949,"","",""
+Correlation of gain with positive AR(3) shock,"",0.929,"",""

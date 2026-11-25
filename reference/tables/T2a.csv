@@ -1,0 +1,12 @@
+Variable,CESD-11 z-score,CESD >= 16,Self-esteem z-score,New ideation report (pp),CESD quadratic,New ideation: large gap (pp),Equivalised income
+Benchmark shortfall,0.135*** (0.018),0.039*** (0.006),-0.099*** (0.013),0.848** (0.307),0.097** (0.032),"",""
+Benchmark gain,-0.046** (0.015),-0.020*** (0.006),0.086*** (0.016),-0.143 (0.261),-0.079* (0.038),"",""
+Shortfall squared,"","","","",0.040 (0.033),"",""
+Gain squared,"","","","",0.040 (0.057),"",""
+Large shortfall (25% or more),"","","","","",0.414** (0.151),""
+Large gain (25% or more),"","","","","",-0.030 (0.127),""
+Equivalised shortfall,"","","","","","",0.135*** (0.021)
+Equivalised gain,"","","","","","",-0.042*** (0.013)
+N,"148,887","148,887","148,888","120,463","148,887","120,463","148,887"
+Within R2,0.0019,0.0013,0.0019,0.0002,0.0019,0.0001,0.0015
+Symmetry p-value,0.005,0.076,0.537,0.157,0.028,0.080,0.005

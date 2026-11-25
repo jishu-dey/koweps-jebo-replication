@@ -1,0 +1,10 @@
+Specification,Shortfall,Gain,Symmetry p-value,N
+"Positive real logs, 1-3 lags (main)",0.135*** (0.018),-0.046** (0.015),0.005,"148,887"
+"Positive real logs, unwinsorised",0.113*** (0.014),-0.046*** (0.013),0.006,"148,887"
+Arc-percent gap around arithmetic history,0.128*** (0.017),-0.044** (0.015),0.005,"148,887"
+"Positive real logs, all three lags",0.131*** (0.016),-0.042** (0.016),0.006,"132,980"
+"Nominal log(1+income), clipped at zero",0.132*** (0.017),-0.037*** (0.011),0.001,"150,516"
+"Real income levels, all three lags",0.063*** (0.010),-0.041*** (0.010),0.170,"134,507"
+Real income levels with both income controls,0.048*** (0.012),-0.033** (0.012),0.448,"134,507"
+Spline: gaps up to 0.10,0.094 (0.068),-0.071 (0.086),0.874,"148,887"
+Spline: gaps above 0.10,0.138*** (0.019),-0.045* (0.022),0.006,"148,887"

@@ -1,0 +1,296 @@
+main N 148887 people 18641 years 13 
+        n people neg_all    all      zero lag_only    med_gap share_short
+    <int>  <int>   <int>  <int>     <num>    <int>      <num>       <num>
+1: 148887  18641     542 171993 0.3380819    15463 0.04038648   0.4356391
+         sdL     nI  posI
+       <num>  <int> <int>
+1: 0.2171744 120463  2384
+                     Outcome                       Specification
+                      <char>                              <char>
+ 1:          CESD-11 z-score                Benchmark terms only
+ 2:          CESD-11 z-score                    + annual changes
+ 3:          CESD-11 z-score                    + current income
+ 4:          CESD-11 z-score + annual changes and current income
+ 5:      Self-esteem z-score                Benchmark terms only
+ 6:      Self-esteem z-score                    + annual changes
+ 7:      Self-esteem z-score                    + current income
+ 8:      Self-esteem z-score + annual changes and current income
+ 9: New ideation report (pp)                Benchmark terms only
+10: New ideation report (pp)                    + annual changes
+11: New ideation report (pp)                    + current income
+12: New ideation report (pp) + annual changes and current income
+            Shortfall              Gain Symmetry p-value
+               <char>            <char>           <char>
+ 1:  0.135*** (0.018)  -0.046** (0.015)            0.005
+ 2:  0.098*** (0.023) -0.072*** (0.021)            0.459
+ 3:   0.052** (0.021)     0.012 (0.014)            0.039
+ 4:     0.018 (0.025)    -0.009 (0.021)            0.803
+ 5: -0.099*** (0.013)  0.086*** (0.016)            0.537
+ 6: -0.114*** (0.018)  0.088*** (0.021)            0.439
+ 7:     0.001 (0.015)     0.016 (0.017)            0.398
+ 8:    -0.015 (0.018)     0.011 (0.024)            0.885
+ 9:   0.848** (0.307)    -0.143 (0.261)            0.157
+10:     0.301 (0.341)  -0.670** (0.295)            0.444
+11:    0.714* (0.392)    -0.048 (0.355)            0.174
+12:     0.193 (0.416)    -0.585 (0.422)            0.402
+    Joint benchmark p-value Within R2       N
+                     <char>    <char>  <char>
+ 1:                  <0.001   0.00187 148,887
+ 2:                  <0.001   0.00198 148,887
+ 3:                   0.076   0.00275 148,887
+ 4:                   0.682   0.00283 148,887
+ 5:                  <0.001   0.00186 148,888
+ 6:                  <0.001   0.00187 148,888
+ 7:                   0.629   0.00325 148,888
+ 8:                   0.623   0.00327 148,888
+ 9:                   0.028   0.00022 120,463
+10:                   0.085   0.00034 120,463
+11:                   0.225   0.00022 120,463
+12:                   0.409   0.00035 120,463
+                      Specification        Shortfall Shortfall x low assets
+                             <char>           <char>                 <char>
+1:                  Baseline assets 0.087*** (0.020)       0.103*** (0.025)
+2:                    Lagged assets 0.091*** (0.014)       0.093*** (0.025)
+3: Baseline assets, income controls   -0.019 (0.030)          0.067 (0.049)
+4:   Lagged assets, income controls   -0.015 (0.028)         0.064* (0.031)
+               Gain Gain x low assets Implied low-asset shortfall
+             <char>            <char>                      <char>
+1: -0.050** (0.022)     0.000 (0.025)                       0.189
+2:  -0.042* (0.021)    -0.004 (0.032)                       0.185
+3:   -0.023 (0.026)     0.017 (0.032)                       0.049
+4:    0.006 (0.028)    -0.026 (0.046)                       0.048
+   BH q (shortfall interaction) Symmetry p, higher assets
+                         <char>                    <char>
+1:                        0.006                     0.251
+2:                        0.006                     0.079
+3:                        0.195                     0.212
+4:                        0.084                     0.821
+   Symmetry p, low assets Asymmetry difference p BH q (asymmetry difference)
+                   <char>                 <char>                      <char>
+1:                  0.003                  0.020                       0.081
+2:                  0.007                  0.091                       0.121
+3:                  0.397                  0.079                       0.121
+4:                  0.567                  0.521                       0.521
+         N
+    <char>
+1: 137,104
+2: 148,887
+3: 137,104
+4: 148,887
+                                         Group        Shortfall
+                                        <char>           <char>
+1:      Lowest tercile of lagged liquid assets 0.228*** (0.030)
+2:                              Middle tercile 0.146*** (0.033)
+3:                             Highest tercile  0.047** (0.020)
+4: Lagged assets cover under 1 month of income 0.209*** (0.058)
+5:                            Cover 1-6 months 0.166*** (0.034)
+6:                      Cover 6 months or more 0.081*** (0.020)
+               Gain Symmetry p-value      N
+             <char>           <char> <char>
+1: -0.070** (0.029)            0.006 46,895
+2:   -0.015 (0.026)            0.027 46,209
+3:   -0.037 (0.023)            0.792 47,311
+4: -0.121** (0.049)            0.378 21,324
+5:  -0.052* (0.029)            0.046 48,321
+6:   -0.023 (0.024)            0.140 69,889
+                                        Specification
+                                               <char>
+1:                               Benchmark terms only
+2:                             Annual-change controls
+3:                  Annual changes and current income
+4:               Annual changes and individual trends
+5:                         AR(3) residual shocks only
+6:                        Horse race: benchmark terms
+7:                  Horse race: AR(3) residual shocks
+8: Correlation of shortfall with negative AR(3) shock
+9:      Correlation of gain with positive AR(3) shock
+   Shortfall / negative shock Gain / positive shock Symmetry p-value       N
+                       <char>                <char>           <char>  <char>
+1:           0.135*** (0.018)      -0.046** (0.015)            0.005 148,887
+2:           0.098*** (0.023)     -0.072*** (0.021)            0.459 148,887
+3:              0.018 (0.025)        -0.009 (0.021)            0.803 148,887
+4:            0.066** (0.024)     -0.082*** (0.024)            0.692 148,887
+5:           0.148*** (0.016)        -0.024 (0.016)           <0.001 132,980
+6:             -0.005 (0.040)      -0.094** (0.033)            0.050 132,980
+7:           0.147*** (0.043)       0.070** (0.031)           <0.001 132,980
+8:                      0.949                                               
+9:                                            0.929                         
+                                  Specification        Shortfall
+                                         <char>           <char>
+1:          Positive real logs, 1-3 lags (main) 0.135*** (0.018)
+2:             Positive real logs, unwinsorised 0.113*** (0.014)
+3:    Arc-percent gap around arithmetic history 0.128*** (0.017)
+4:           Positive real logs, all three lags 0.131*** (0.016)
+5:       Nominal log(1+income), clipped at zero 0.132*** (0.017)
+6:           Real income levels, all three lags 0.063*** (0.010)
+7: Real income levels with both income controls 0.048*** (0.012)
+8:                      Spline: gaps up to 0.10    0.094 (0.068)
+9:                      Spline: gaps above 0.10 0.138*** (0.019)
+                Gain Symmetry p-value       N
+              <char>           <char>  <char>
+1:  -0.046** (0.015)            0.005 148,887
+2: -0.046*** (0.013)            0.006 148,887
+3:  -0.044** (0.015)            0.005 148,887
+4:  -0.042** (0.016)            0.006 132,980
+5: -0.037*** (0.011)            0.001 150,516
+6: -0.041*** (0.010)            0.170 134,507
+7:  -0.033** (0.012)            0.448 134,507
+8:    -0.071 (0.086)            0.874 148,887
+9:   -0.045* (0.022)            0.006 148,887
+                                          Model Base rate         Shortfall
+                                         <char>    <char>            <char>
+ 1:                                 P(CESD = 0)     0.338 -0.043*** (0.005)
+ 2:                              P(CESD >= 1.8)     0.662  0.043*** (0.005)
+ 3:                              P(CESD >= 5.5)     0.440  0.059*** (0.009)
+ 4:                             P(CESD >= 10.9)     0.250  0.049*** (0.008)
+ 5:                             P(CESD >= 16.4)     0.143  0.039*** (0.006)
+ 6:                               P(CESD >= 16)     0.143  0.039*** (0.006)
+ 7:                             P(CESD >= 23.6)     0.063  0.021*** (0.004)
+ 8:                             P(CESD >= 32.7)     0.021  0.007*** (0.002)
+ 9:                                 asinh(CESD)            0.185*** (0.021)
+10:                     Percentile rank of CESD            0.037*** (0.004)
+11:                  Poisson (PPML), CESD score            0.157*** (0.017)
+12:              PPML with both income controls               0.031 (0.027)
+13:                   Fractional logit, CESD/60            0.198*** (0.022)
+14:  Fractional logit with both income controls               0.037 (0.034)
+15:        First observed CESD = 0, later years            0.112*** (0.021)
+16:        First observed CESD > 0, later years            0.156*** (0.027)
+17:                   Life satisfaction z-score           -0.147*** (0.013)
+18: Life satisfaction with both income controls              -0.001 (0.022)
+19: Asymmetry difference, first CESD > 0 vs = 0                       0.046
+                 Gain Symmetry p-value
+               <char>           <char>
+ 1:     0.014 (0.008)            0.007
+ 2:    -0.014 (0.008)            0.007
+ 3:    -0.015 (0.009)            0.009
+ 4:   -0.014* (0.008)            0.016
+ 5: -0.020*** (0.006)            0.076
+ 6: -0.020*** (0.006)            0.076
+ 7:  -0.008** (0.004)            0.038
+ 8:   -0.004* (0.002)            0.221
+ 9:  -0.053** (0.023)            0.001
+10:  -0.011** (0.004)            0.001
+11: -0.059*** (0.019)            0.006
+12:    -0.028 (0.028)            0.932
+13:  -0.073** (0.024)            0.006
+14:    -0.032 (0.034)            0.923
+15:   -0.043* (0.021)            0.067
+16:  -0.051** (0.022)            0.021
+17:  0.092*** (0.013)            0.014
+18:     0.005 (0.024)            0.903
+19:                              0.393
+   Bandwidth Slope change: CESD-11 CESD p-value Slope change: self-esteem
+      <char>                <char>       <char>                    <char>
+1:      0.05       -1.511* (0.790)        0.080             0.793 (1.097)
+2:      0.10         0.368 (0.287)        0.225            -0.100 (0.357)
+3:      0.15        -0.053 (0.192)        0.788             0.010 (0.171)
+4:      0.20         0.091 (0.169)        0.602            -0.106 (0.163)
+5:      0.25        -0.002 (0.070)        0.972            -0.040 (0.123)
+6:      0.30         0.053 (0.064)        0.419            -0.030 (0.081)
+7:      0.40         0.052 (0.051)        0.332            -0.040 (0.044)
+8:      0.50         0.069 (0.046)        0.158            -0.017 (0.045)
+   Self-esteem p-value       N
+                <char>  <char>
+1:               0.483  17,302
+2:               0.785  39,747
+3:               0.955  59,850
+4:               0.530  76,420
+5:               0.749  90,195
+6:               0.721 101,310
+7:               0.385 117,732
+8:               0.712 128,026
+                                    Specification        Shortfall
+                                           <char>           <char>
+ 1:             One-year benchmark, all available 0.131*** (0.017)
+ 2:             Two-year benchmark, all available 0.136*** (0.016)
+ 3:           Three-year benchmark, all available 0.135*** (0.018)
+ 4:   One-year benchmark, common three-lag sample 0.127*** (0.013)
+ 5:   Two-year benchmark, common three-lag sample 0.132*** (0.014)
+ 6: Three-year benchmark, common three-lag sample 0.131*** (0.016)
+ 7:                    Current log income control  0.052** (0.021)
+ 8:                        Lagged outcome control 0.132*** (0.019)
+ 9:              Excluding income years 2020-2021 0.146*** (0.018)
+10:                      Individual linear trends 0.109*** (0.021)
+11:            Same household across income dates 0.138*** (0.018)
+                 Gain Symmetry p-value       N
+               <char>           <char>  <char>
+ 1:    -0.003 (0.010)           <0.001 148,887
+ 2:   -0.030* (0.014)           <0.001 148,887
+ 3:  -0.046** (0.015)            0.005 148,887
+ 4:    -0.001 (0.010)           <0.001 132,980
+ 5:   -0.027* (0.014)           <0.001 132,980
+ 6:  -0.042** (0.016)            0.006 132,980
+ 7:     0.012 (0.014)            0.039 148,887
+ 8:  -0.049** (0.016)            0.014 144,270
+ 9:   -0.033* (0.015)           <0.001 128,772
+10: -0.061*** (0.018)            0.163 148,887
+11:  -0.044** (0.015)            0.004 145,101
+                    Outcome Shortfall, no hardship terms
+                     <char>                       <char>
+1:                  CESD-11             0.141*** (0.020)
+2:              Self-esteem            -0.108*** (0.016)
+3: New ideation report (pp)              0.836** (0.306)
+   Shortfall, with hardship terms Gain, with hardship terms
+                           <char>                    <char>
+1:               0.131*** (0.017)          -0.041** (0.016)
+2:              -0.097*** (0.014)          0.093*** (0.016)
+3:                0.781** (0.303)            -0.147 (0.272)
+   Consumption decline (20%) Worsening food hardship       N
+                      <char>                  <char>  <char>
+1:            -0.002 (0.008)        0.375*** (0.022) 126,138
+2:            -0.008 (0.009)       -0.223*** (0.019) 126,139
+3:            -0.116 (0.119)        3.460*** (0.481) 119,269
+tables done
+You have an unbalanced panel. Proceeding as such.
+You have an unbalanced panel. Proceeding as such.
+You have an unbalanced panel. Proceeding as such.
+You have an unbalanced panel. Proceeding as such.
+     outcome     k          est         se    boot_se     crit
+      <char> <num>        <num>      <num>      <num>    <num>
+ 1:   cesd_z    -6 -0.043857901 0.02695842 0.03346879 2.862792
+ 2:   cesd_z    -5 -0.038209403 0.02313301 0.02803516 2.862792
+ 3:   cesd_z    -4 -0.002871618 0.02140271 0.02392236 2.862792
+ 4:   cesd_z    -3 -0.001222228 0.01808306 0.02133143 2.862792
+ 5:   cesd_z    -2  0.000000000 0.00000000         NA 2.862792
+ 6:   cesd_z    -1  0.027211755 0.01653948 0.02149836 2.862792
+ 7:   cesd_z     0  0.109288878 0.01825941 0.02274498 2.862792
+ 8:   cesd_z     1  0.052276645 0.01879223 0.02475280 2.862792
+ 9:   cesd_z     2  0.062976445 0.02146509 0.02837367 2.862792
+10:   cesd_z     3  0.063019550 0.02351347 0.03255173 2.862792
+11:   cesd_z     4  0.090997109 0.02687353 0.03786554 2.862792
+12:   cesd_z     5  0.114461305 0.03007537 0.04366773 2.862792
+13:   cesd_z     6  0.102154576 0.03511755 0.04771321 2.862792
+14: esteem_z    -6 -0.021154782 0.03005620 0.03332948 2.726026
+15: esteem_z    -5 -0.005392507 0.02672980 0.02962412 2.726026
+16: esteem_z    -4  0.007951754 0.02344850 0.02484697 2.726026
+17: esteem_z    -3  0.015249304 0.01847266 0.02210320 2.726026
+18: esteem_z    -2  0.000000000 0.00000000         NA 2.726026
+19: esteem_z    -1 -0.016640948 0.01628247 0.01935127 2.726026
+20: esteem_z     0 -0.111481627 0.01809329 0.02204063 2.726026
+21: esteem_z     1 -0.075641874 0.01909883 0.02412063 2.726026
+22: esteem_z     2 -0.085620580 0.02132904 0.02516632 2.726026
+23: esteem_z     3 -0.092869104 0.02305973 0.02804530 2.726026
+24: esteem_z     4 -0.084417440 0.02550316 0.03167959 2.726026
+25: esteem_z     5 -0.092216987 0.02849533 0.03850405 2.726026
+26: esteem_z     6 -0.113595665 0.03229257 0.04544848 2.726026
+     outcome     k          est         se    boot_se     crit
+      <char> <num>        <num>      <num>      <num>    <num>
+     outcome                                             test            p
+      <char>                                           <char>        <num>
+ 1:   cesd_z                          Displayed leads k=-4,-3 0.9910088538
+ 2:   cesd_z                       Displayed leads k=-6 to -3 0.3056023168
+ 3:   cesd_z            All clean cells, household covariance 0.5393090666
+ 4:   cesd_z               All clean cells, person covariance 0.1593658294
+ 5:   cesd_z All clean cells, varying base, person covariance 0.0694040864
+ 6:   cesd_z           Package test including transition year 0.0323500000
+ 7: esteem_z                          Displayed leads k=-4,-3 0.7106970212
+ 8: esteem_z                       Displayed leads k=-6 to -3 0.7384629301
+ 9: esteem_z            All clean cells, household covariance 0.0752449480
+10: esteem_z               All clean cells, person covariance 0.0010027427
+11: esteem_z All clean cells, varying base, person covariance 0.0001864184
+12: esteem_z           Package test including transition year 0.0003000000
+    outcome      avg0_3     avg_se treated never     n
+     <char>       <num>      <num>   <int> <int> <int>
+1:   cesd_z  0.07189038 0.01681802    6065  5380 96495
+2: esteem_z -0.09140330 0.01696066    6065  5380 96494
+complete

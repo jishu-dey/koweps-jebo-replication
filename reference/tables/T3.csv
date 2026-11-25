@@ -1,0 +1,13 @@
+Outcome,Specification,Shortfall,Gain,Symmetry p-value,Joint benchmark p-value,Within R2,N
+CESD-11 z-score,Benchmark terms only,0.135*** (0.018),-0.046** (0.015),0.005,<0.001,0.00187,"148,887"
+CESD-11 z-score,+ annual changes,0.098*** (0.023),-0.072*** (0.021),0.459,<0.001,0.00198,"148,887"
+CESD-11 z-score,+ current income,0.052** (0.021),0.012 (0.014),0.039,0.076,0.00275,"148,887"
+CESD-11 z-score,+ annual changes and current income,0.018 (0.025),-0.009 (0.021),0.803,0.682,0.00283,"148,887"
+Self-esteem z-score,Benchmark terms only,-0.099*** (0.013),0.086*** (0.016),0.537,<0.001,0.00186,"148,888"
+Self-esteem z-score,+ annual changes,-0.114*** (0.018),0.088*** (0.021),0.439,<0.001,0.00187,"148,888"
+Self-esteem z-score,+ current income,0.001 (0.015),0.016 (0.017),0.398,0.629,0.00325,"148,888"
+Self-esteem z-score,+ annual changes and current income,-0.015 (0.018),0.011 (0.024),0.885,0.623,0.00327,"148,888"
+New ideation report (pp),Benchmark terms only,0.848** (0.307),-0.143 (0.261),0.157,0.028,0.00022,"120,463"
+New ideation report (pp),+ annual changes,0.301 (0.341),-0.670** (0.295),0.444,0.085,0.00034,"120,463"
+New ideation report (pp),+ current income,0.714* (0.392),-0.048 (0.355),0.174,0.225,0.00022,"120,463"
+New ideation report (pp),+ annual changes and current income,0.193 (0.416),-0.585 (0.422),0.402,0.409,0.00035,"120,463"

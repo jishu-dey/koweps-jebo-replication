@@ -1,0 +1,13 @@
+Outcome,Specification,Shortfall,Gain,Symmetry p-value,N
+CESD-11,Equal-weight benchmark,0.135*** (0.018),-0.046** (0.015),0.005,"148,887"
+CESD-11,Discounted benchmark,0.140*** (0.018),-0.042** (0.015),0.002,"148,887"
+CESD-11,"Positive-weight sample, unweighted",0.134*** (0.018),-0.047*** (0.015),0.006,"144,766"
+CESD-11,Longitudinal weights,0.106*** (0.023),-0.053** (0.019),0.155,"144,766"
+Self-esteem,Equal-weight benchmark,-0.099*** (0.013),0.086*** (0.016),0.537,"148,888"
+Self-esteem,Discounted benchmark,-0.099*** (0.013),0.087*** (0.016),0.536,"148,888"
+Self-esteem,"Positive-weight sample, unweighted",-0.098*** (0.014),0.090*** (0.016),0.726,"144,766"
+Self-esteem,Longitudinal weights,-0.077*** (0.022),0.084*** (0.020),0.830,"144,766"
+New ideation report (pp),Equal-weight benchmark,0.848** (0.307),-0.143 (0.261),0.157,"120,463"
+New ideation report (pp),Discounted benchmark,0.916** (0.312),-0.029 (0.276),0.093,"120,463"
+New ideation report (pp),"Positive-weight sample, unweighted",0.803** (0.312),-0.110 (0.265),0.167,"117,138"
+New ideation report (pp),Longitudinal weights,0.739* (0.358),-0.168 (0.313),0.364,"117,138"
